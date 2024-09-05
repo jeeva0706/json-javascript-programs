@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Details</title>
+    <link rel="stylesheet" href="./main.css">
+    <script src="./main.js" defer></script> 
+</head>
+<body>
+    
+    <h1 class="h1">Student Details</h1><hr class="hr"><hr class="hr">
+
+    <form>
+        <label for="datas" class="title">DATA SEARCH BAR:</label><br><br>
+        <input type="text" id="datas" name="datas" class="input" placeholder="Enter Student Details"><br><br>
+    </form>
+
+    <!-- all button here -->
+
+    <button id="search" class="btn" onclick="showdetails()">Search</button>
+
+    <button onclick="smallletter()" class="btn">Lowercase</button>
+
+    <button onclick="bigletter()" class="btn">Uppercase</button>
+
+    <button onclick="sortTable()" class="btn">Sort A-Z</button>
+
+    <button onclick="sorttTable()" class="btn">Sort Z-A</button>
+
+    <button onclick="deletedata()" class="btn">Delete</button><br>
+
+
+    <!-- update section -->
+    
+    <button onclick="updatedata()" class="btn">Update</button><br>
+
+    Update Data:<input type="text" id="datatype" class="input1"><br>
+    
+   <!-- insert section -->
+
+    <button onclick="insertdata()" class="btn">Insert</button><br>
+
+    Name:<input type="text" id="name" class="input1">
+
+    ID:<input type="text" id="ID" class="input1">
+
+    Language:<input type="text" id="language" class="input1">
+
+    PhoneNo:<input type="text" id="phonenumber" class="input1">
+
+    DOB:<input type="text" id="DOB" class="input1">
+
+    District:<input type="text"  id="district" class="input1"> 
+
+    <p id="resultdata" style="color: orangered;"></p>
+
+    <!-- table section -->
+
+    <table class="table" id="studentTable"><br>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>ID</th>
+                <th>Language</th>
+                <th>Phone Number</th>
+                <th>DOB</th>
+                <th>District</th>
+            </tr>
+        </thead>
+        <tbody id="data">
+        </tbody>
+    </table>
+
+</body>
+</html> 
+
+
+
+

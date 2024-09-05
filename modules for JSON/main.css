@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.table th,
+.table td {
+    border: 2px solid black;
+    padding: 8px;
+    text-align: center;
+    background-color: gray;
+    color: #f2f2f2;
+}
+.table th {
+    background-color: black;
+}
+.btn {
+    background-color: gray;
+    padding: 10px 20px;
+    margin: 5px;
+    color: #f2f2f2;
+    border-radius: 5px;
+}
+.input {
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 5px;
+    border: 1px solid palevioletred;
+}
+.h1 {
+    text-align: center;
+    color: palevioletred;
+}
+.title {
+    padding: 5px;
+    color: palevioletred;
+}
+.btn:hover {
+    background-color: black;
+    color: palevioletred;
+}
+.input1 {
+    border-color: palevioletred;
+    border-radius: 5px;
+   padding: 5px 0px;
+}
+
+
+
